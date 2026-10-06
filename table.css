@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1b5e20;
+}
+
+th {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #1b5e20;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #a5d6a7;
+}
+
+/* Zebra-striping */
+tr:nth-child(even) {
+    background-color: #e8f5e9;
+}
+
+tr:hover {
+    background-color: #c8e6c9;
+}
+
+tfoot td {
+    background-color: #c8e6c9;
+    font-weight: bold;
+}

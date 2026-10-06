@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Farmer Registration</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <h1>Farmer Registration Form</h1>
+    <p>Please fill in your details below.</p>
+
+    <form>
+        <fieldset>
+            <legend>Farmer Details</legend>
+
+            <label>Farmer Name:</label>
+            <input type="text" name="farmerName" required>
+
+            <label>Mobile Number:</label>
+            <input type="tel" name="mobile" required>
+
+            <label>Email Address:</label>
+            <input type="email" name="email">
+
+            <label>Village:</label>
+            <input type="text" name="village">
+
+            <label>Plot ID:</label>
+            <input type="text" name="plotId">
+
+            <label>Crop Variety:</label>
+            <input type="text" name="crop">
+
+            <label>Farm Area (acres):</label>
+            <input type="number" name="farmArea">
+
+            <label>Irrigation Method:</label>
+            <select name="irrigation">
+                <option value="">-- Select Method --</option>
+                <option>Drip Irrigation</option>
+                <option>Sprinkler Irrigation</option>
+                <option>Canal Irrigation</option>
+                <option>Rainwater</option>
+            </select>
+
+            <label>Preferred Language:</label><br>
+            <input type="radio" name="language" value="English"> English
+            <input type="radio" name="language" value="Hindi"> Hindi
+            <input type="radio" name="language" value="Marathi"> Marathi
+
+            <br><br>
+            <label>Advisory Services Required:</label><br>
+            <input type="checkbox" name="advisory" value="Weather"> Weather Updates<br>
+            <input type="checkbox" name="advisory" value="Crop"> Crop Advice<br>
+            <input type="checkbox" name="advisory" value="Irrigation"> Irrigation Advice
+
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+
+</body>
+</html>

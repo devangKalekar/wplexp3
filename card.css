@@ -1,0 +1,27 @@
+.product-card {
+    width: 280px;
+    margin: 15px;
+    padding: 18px;
+    border: 2px solid #388e3c;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: #c8e6c9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    vertical-align: top;
+}
+
+.product-card h3 {
+    margin-top: 0;
+    color: #1b5e20;
+}
+
+.product-card ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.product-card li {
+    padding: 5px 0;
+}
